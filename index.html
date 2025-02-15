@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>IoT Attendance System</h2>
+        <p>Select your role:</p>
+        <button onclick="redirectToStudent()">Student</button>
+        <button onclick="showTeacherLogin()">Teacher</button>
+
+        <div id="teacher-login" class="hidden">
+            <input type="password" id="teacher-password" placeholder="Enter Password">
+            <button onclick="validateTeacher()">Login</button>
+            <p id="error-msg" class="error"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+#explain this code 
